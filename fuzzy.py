@@ -115,5 +115,7 @@ def compute_fuzzy(attend, intr_mark, extn_mark):
 	return (str(perf_analysis.output[PERFORMANCE]))
 	#return performance.view(sim=perf_analysis)
 	
-	
-
+# Example to run the code.	
+print(compute_fuzzy(70, 20, 50))
+print(compute_fuzzy(90, 30, 60))
+print(compute_fuzzy(95, 90, 80))
